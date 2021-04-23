@@ -1,0 +1,27 @@
+{
+  "name": "oldemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LCM233/oldemo.git"
+  },
+  "author": "lcm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LCM233/oldemo/issues"
+  },
+  "homepage": "https://github.com/LCM233/oldemo#readme",
+  "dependencies": {
+    "ol": "^6.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
